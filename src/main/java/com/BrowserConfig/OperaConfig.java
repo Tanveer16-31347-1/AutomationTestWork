@@ -16,6 +16,7 @@ public class OperaConfig {
 
            System.setProperty("webdriver.opera.driver","./src/main/resources/operadriver.exe");
             driver=new OperaDriver();
+            driver.manage().window().maximize();
 
     }
 }

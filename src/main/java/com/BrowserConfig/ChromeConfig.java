@@ -16,6 +16,7 @@ public class ChromeConfig {
 
             System.setProperty("webdriver.chrome.driver","./src/main/resources/chromedriver.exe");
             driver=new ChromeDriver();
+            driver.manage().window().maximize();  //// for windows maximization
 
     }
 }
